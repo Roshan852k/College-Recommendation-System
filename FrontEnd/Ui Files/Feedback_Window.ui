@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1122</width>
+    <height>865</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(52, 52, 52);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>931</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 0);
+color: rgb(255, 255, 255);
+font: 75 18pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>                                      - FEEDBACK FORM -</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>130</y>
+      <width>931</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Done_Button">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>760</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 170, 0);
+border:3px solid;
+border-top-color: rgb(255, 170, 0);
+border-right-color: rgb(255, 170, 0);
+border-bottom-color: rgb(255, 170, 0);
+border-left-color: rgb(255, 170, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>SUBMIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>300</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(52, 52, 52);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>  COLLEGE INFRASTUCTURE :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>410</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(52, 52, 52);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>  PLACEMENT :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>530</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(52, 52, 52);
+
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>  ACADEMICS :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>650</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(52, 52, 52);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>  CAMPUS LIFE :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>180</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(52, 52, 52);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>  COLLEGE NAME :                </string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="College_Field">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>180</y>
+      <width>651</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>-NONE-</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AP Shah Institute of Technology, Thane
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Atharva College of Engineering, Malad
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bharati Vidyapeeth College of Engineering, Navi Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Datta Meghe College of Engineering, Navi Mumbai 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Don Bosco Institute of Technology, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dwarkadas J Sanghvi College of Engineering, Mumbai 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Institute of Chemical Technology, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fr C Rodrigues Institute of Technology, Navi Mumbai 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KJ Somaiya Institute of Engineering and Information Technology, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KJ Somaiya College of Engineering, Mumbai 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lokmanya Tilak College of Engineering, Navi Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MCTs Rajiv Gandhi Institute of Technology, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MH Saboo Siddik College of Engineering, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Padmabhushan Vasantdada Patil Pratishthan's College of Engineering, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pillai College of Engineering, New Panvel 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ramrao Adik Institute of Technology, Navi Mumbai 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rizvi College of Engineering, Bandra
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Saraswati College of Engineering, Navi Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sardar Patel Institute of Technology, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shivajirao S Jondhale College of Engineering, Thane
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SIES Graduate School of Technology, Navi Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Smt Indira Gandhi College of Engineering, Navi Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>St Francis Institute of Technology, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Thadomal Shahani Engineering College, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Thakur College of Engineering and Technology, Mumbai 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Terna Public Charitable Trust's Terna Engineering College, Navi Mumbai 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Veermata Jijabai Technological Institute, Mumbai 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vidyalankar Institute of Technology, Mumbai 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vivekanand Education Society's Institute of Technology, Chembur 
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Xavier Institute of Engineering, Mumbai
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="Infrastucture_Field">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>270</y>
+      <width>641</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Placement_Field">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>390</y>
+      <width>641</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Academics_Field">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>510</y>
+      <width>641</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Campuslife_Field">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>630</y>
+      <width>641</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
