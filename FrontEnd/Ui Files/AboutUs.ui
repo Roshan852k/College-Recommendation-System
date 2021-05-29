@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1102</width>
+    <height>892</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(52, 52, 52);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>40</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 28pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>About Us</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>100</y>
+      <width>971</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 0);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>911</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 170, 0);
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string> What is MHT CET College Predictor 2022 ?
+
+ Want to know which college you get as per your MHT CET scores? An amazing tool, MHT CET
+ college predictor helps you to get the list of Maharashtra colleges which are suitable according
+ to your MHT CET rank and scores. MHT CET college  predicton uses the last years’ data and trends
+ to predict the list of colleges for the candidates on the basis of the details entered by them. To
+ access the MHT CET 2021 college predictor, candidates need to enter their ranks and other
+ information like seat type, gender, category, caste, etc.
+
+ How to use MHT CET College Predictor ?
+ Candidates can easily access the MHT CET college predictor 2021 by simply entering all the details
+ required to predict the colleges.
+
+ Step 1- Enter Rank &amp; Choose your preferences for sea available in counselling-
+
+ 1.State General Merit Rank
+ 2.Region in Maharashtra
+ 3.Catagory/Caste Group
+ 4.Gender
+  5.Branch
+
+ Step 2- Click on the “Predict My Colleges” button
+ Step 3- Check the list of best and suitable colleges &amp; courses accepting the MHT CET marks
+ Step 4- Apply filters to choose your preferred branches, location etc
+ Step 5-Compare the colleges to know which one is most suitable for you</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
